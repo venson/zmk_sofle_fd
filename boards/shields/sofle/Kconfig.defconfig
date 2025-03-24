@@ -19,6 +19,10 @@ config ZMK_SPLIT_WIRED_UART_MODE_ASYNC
 	default n
 config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
 	default y
+config SERIAL_SUPPORT_INTERRUPT
+	default y
+config SERIAL
+	default y
 # if ZMK_DISPLAY
 #
 # config I2C
