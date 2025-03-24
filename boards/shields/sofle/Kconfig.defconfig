@@ -6,14 +6,12 @@ if SHIELD_SOFLE_LEFT
 config ZMK_KEYBOARD_NAME
     default "Sofle"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
 
 endif
 
 if SHIELD_SOFLE_LEFT || SHIELD_SOFLE_RIGHT
 
-config ZMK_SPLIT
+config ZMK_USB
     default y
 config ZMK_SPLIT_WIRED
 	default y
