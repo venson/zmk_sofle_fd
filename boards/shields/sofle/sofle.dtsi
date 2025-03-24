@@ -6,6 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <layouts/josefadamcik/sofle.dtsi>
+#include <rpi_pico/rp2040.dtsi>
 
 #include "sofle-pinctrl.dtsi"
 
