@@ -1,0 +1,17 @@
+#include <dt-bindings/pinctrl/rpi-pico-rp2040-pinctrl.h>
+
+&pinctrl {
+    /* configuration for the usart0 "default" state */
+    uart0_default: uart0_default {
+        group1 {
+            /* configure P0 as UART0 TX */
+            pinmux = <UART0_TX_P0>;
+            };
+        group2 {
+            /* configure P1 as UART0 RX */
+            pinmux = <UART0_RX_P1>;
+            /* enable input on pin 1 */
+            input-enable;
+        };
+    };
+};
