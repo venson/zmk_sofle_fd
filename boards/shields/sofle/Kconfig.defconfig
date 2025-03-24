@@ -16,6 +16,8 @@ config ZMK_USB
 config ZMK_SPLIT_WIRED
 	default y
 config ZMK_SPLIT_WIRED_UART_MODE_ASYNC
+	default n
+config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
 	default y
 # if ZMK_DISPLAY
 #
